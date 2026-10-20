@@ -29,7 +29,7 @@ public class PostObjectsTest {
 		        .post("/objects")
 
 		    .then()
-		        .statusCode(200);
+		        .statusCode(201);
 		
 		
 	}
